@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meu Site de Vendas</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin: 0;
+            padding: 0;
+            color: #333;
+            background-color: #f4f4f9;
+        }
+        header {
+            background: linear-gradient(135deg, #ff4081, #ffab00);
+            color: #fff;
+            padding: 20px;
+            text-align: center;
+            position: sticky;
+            top: 0;
+            width: 100%;
+        }
+        nav {
+            margin: 0;
+            padding: 0;
+        }
+        nav ul {
+            list-style: none;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            margin: 0;
+        }
+        nav ul li {
+            margin: 0 20px;
+        }
+        nav ul li a {
+            color: #fff;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        section {
+            padding: 40px 20px;
+            max-width: 1200px;
+            margin: auto;
+        }
+        .container {
+            max-width: 1000px;
+            margin: auto;
+        }
+        .services, .market, .sales {
+            margin-bottom: 40px;
+            background: #fff;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+            padding: 20px;
+            transition: transform 0.3s, box-shadow 0.3s;
+        }
+        .services:hover, .market:hover, .sales:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 8px 16px rgba(0,0,0,0.2);
+        }
+        .services h2, .market h2, .sales h2 {
+            border-bottom: 3px solid #ff4081;
+            padding-bottom: 10px;
+            margin-bottom: 20px;
+            color: #ff4081;
+        }
+        footer {
+            background: #333;
+            color: #fff;
+            text-align: center;
+            padding: 15px;
+        }
+        .contact-link {
+            text-align: center;
+            padding: 20px;
+            background: #fff;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+        }
+        .contact-link a {
+            color: #ff4081;
+            text-decoration: none;
+            font-size: 18px;
+            font-weight: bold;
+        }
+        .contact-link a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Meu Site de Vendas</h1>
+        <nav>
+            <ul>
+                <li><a href="#home">Início</a></li>
+                <li><a href="#services">Serviços</a></li>
+                <li><a href="#market">Mercado</a></li>
+                <li><a href="#sales">Vendas</a></li>
+                <li><a href="#contact">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="home" class="container">
+        <h2>Início</h2>
+        <p>Bem-vindo ao site do supermercado digital BorcElle! Explore nossos serviços, análises de mercado e ofertas de vendas.</p>
+    </section>
+
+    <section id="services" class="container services">
+        <h2>Serviços</h2>
+        <p>Oferecemos uma gama de serviços especializados para atender às suas necessidades de vendas e mercado.</p>
+    </section>
+
+    <section id="market" class="container market">
+        <h2>Mercado</h2>
+        <p>Descubra as últimas tendências e análises de mercado para impulsionar suas decisões de negócios.</p>
+    </section>
+
+    <section id="sales" class="container sales">
+        <h2>Vendas</h2>
+        <ul>
+            <li><strong>1000 Robux:</strong> 50 reais (50 reais/robux)</li>
+            <li><strong>50 Robux:</strong> 2 reais (2 reais/robux)</li>
+            <li><strong>Nitro:</strong> 1 real (1 real/robux)</li>
+        </ul>
+    </section>
+
+    <section id="contact" class="contact-link">
+        <h2>Quer comprar ou vender?</h2>
+        <p>Entre aqui! <a href="https://discord.gg/ujMcSNzFwT" target="_blank">https://discord.gg/ujMcSNzFwT</a></p>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Meu Site de Vendas. Todos os direitos reservados.</p>
+    </footer>
+</body>
+</html>
